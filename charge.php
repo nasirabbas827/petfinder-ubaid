@@ -29,7 +29,7 @@ $petName = $_POST['petName'];
 $amount = $_POST['amount'];
 
 // Stripe API keys
-$stripe_secret_key = 'sk_test_51PQinLRrUKhdzOsDK666N2V91NnsWKtb8mcYyrYwhPgDEheMluMygqAx0MnrgRTWyVwjMvRKsUjpxuyGvFFfuhKE00cD9K5EtD';
+$stripe_secret_key = "YOUR_OWN_API_KEY";
 
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
